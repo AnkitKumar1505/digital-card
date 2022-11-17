@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.wrapper {
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 60px 20px 80px;
+  text-align: center;
+}
+.user:hover {
+  color: red;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:hover {
+  color: aqua;
+  opacity: 0.8;
+}
+a:active,
+a:focus {
+  opacity: 1;
+}
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+}
+.profile h1 {
+  margin-bottom: 0;
+}
+.profile p {
+  margin-top: 10px;
+}
+.profile p a {
+  text-decoration: underline;
+}
+.contact .row {
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.16);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 10px 20px;
+}
+.phone {
+  margin-right: 10px;
+}
+.row:hover {
+  box-shadow: 5px 5px 5px 5px #000;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: all 0.5s ease;
+}
+.contact .row .right a {
+  background: red;
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+}
+.contact .row .right a.phone {
+  background-color: #00b5de;
+}
+.contact .row .right a.whatsapp {
+  background-color: #00dc63;
+}
+.contact .row .right a.mail {
+  background-color: #e8ba01;
+}
+.contact .row .right a.website {
+  background-color: #9d9d9d;
+}
+.connect a {
+  color: #dadada;
+  font-size: 25px;
+  margin: 0 15px;
+}
+i:hover {
+  color: red;
+  transition: all 0.6s ease;
+}
+/*# sourceMappingURL=main.9b782d71.css.map*/
